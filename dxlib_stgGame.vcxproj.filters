@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="program">
+      <UniqueIdentifier>{d1f2c08e-0499-4231-a00a-e969f8c0a3ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="program\game">
+      <UniqueIdentifier>{13fff3db-aa9e-46c4-976a-137ff6a97580}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="program\library">
+      <UniqueIdentifier>{85a441ac-38c6-411e-a197-d9a44d83da54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="program\system">
+      <UniqueIdentifier>{96701ae8-e648-49f1-a923-9e902d10a95e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="program\library\SystemLib">
+      <UniqueIdentifier>{bb52742e-2da5-4058-89fb-ddf70b35e79f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="program\library\SystemLib\pch.cpp">
+      <Filter>program\library\SystemLib</Filter>
+    </ClCompile>
+    <ClCompile Include="program\library\SystemLib\dxlib_stgGame.cpp">
+      <Filter>program\library\SystemLib</Filter>
+    </ClCompile>
+    <ClCompile Include="program\system\Sys_main.cpp">
+      <Filter>program\system</Filter>
+    </ClCompile>
+    <ClCompile Include="control.cpp">
+      <Filter>program\library</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="program\library\SystemLib\pch.h">
+      <Filter>program\library\SystemLib</Filter>
+    </ClInclude>
+    <ClInclude Include="program\library\SystemLib\Resource.h">
+      <Filter>program\library\SystemLib</Filter>
+    </ClInclude>
+    <ClInclude Include="program\library\SystemLib\targetver.h">
+      <Filter>program\library\SystemLib</Filter>
+    </ClInclude>
+    <ClInclude Include="program\library\SystemLib\dxlib_stgGame.h">
+      <Filter>program\library\SystemLib</Filter>
+    </ClInclude>
+    <ClInclude Include="program\library\SystemLib\framework.h">
+      <Filter>program\library\SystemLib</Filter>
+    </ClInclude>
+    <ClInclude Include="program\system\Sys_main.h">
+      <Filter>program\system</Filter>
+    </ClInclude>
+    <ClInclude Include="control.h">
+      <Filter>program\library</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="program\library\SystemLib\small.ico">
+      <Filter>program\library\SystemLib</Filter>
+    </Image>
+    <Image Include="program\library\SystemLib\dxlib_stgGame.ico">
+      <Filter>program\library\SystemLib</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="program\library\SystemLib\dxlib_stgGame.rc">
+      <Filter>program\library\SystemLib</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
