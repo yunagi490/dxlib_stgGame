@@ -1,4 +1,4 @@
-#include "player.h"
+#include "../dxlib_stgGame/program/library/player.h"
 
 class CONTROL
 {

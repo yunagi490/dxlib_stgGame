@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -20,12 +20,14 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="control.cpp" />
+    <ClCompile Include="program\library\player.cpp" />
     <ClCompile Include="program\library\SystemLib\dxlib_stgGame.cpp" />
     <ClCompile Include="program\library\SystemLib\pch.cpp" />
     <ClCompile Include="program\system\Sys_main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="control.h" />
+    <ClInclude Include="program\library\player.h" />
     <ClInclude Include="program\library\SystemLib\dxlib_stgGame.h" />
     <ClInclude Include="program\library\SystemLib\framework.h" />
     <ClInclude Include="program\library\SystemLib\pch.h" />
