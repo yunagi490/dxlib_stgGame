@@ -16,6 +16,9 @@
     <Filter Include="program\library\SystemLib">
       <UniqueIdentifier>{bb52742e-2da5-4058-89fb-ddf70b35e79f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="program\game\Player">
+      <UniqueIdentifier>{36dce952-3b9c-4fab-8541-d6c6d90e978e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="program\library\SystemLib\pch.cpp">
@@ -32,6 +35,9 @@
     </ClCompile>
     <ClCompile Include="program\library\player.cpp">
       <Filter>program\library</Filter>
+    </ClCompile>
+    <ClCompile Include="program\game\Player\Move.cpp">
+      <Filter>program\game\Player</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -58,6 +64,9 @@
     </ClInclude>
     <ClInclude Include="program\library\player.h">
       <Filter>program\library</Filter>
+    </ClInclude>
+    <ClInclude Include="program\game\Player\Move.h">
+      <Filter>program\game\Player</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

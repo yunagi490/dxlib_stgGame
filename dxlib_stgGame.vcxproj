@@ -20,6 +20,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="control.cpp" />
+    <ClCompile Include="program\game\Player\Move.cpp" />
     <ClCompile Include="program\library\player.cpp" />
     <ClCompile Include="program\library\SystemLib\dxlib_stgGame.cpp" />
     <ClCompile Include="program\library\SystemLib\pch.cpp" />
@@ -27,6 +28,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="control.h" />
+    <ClInclude Include="program\game\Player\Move.h" />
     <ClInclude Include="program\library\player.h" />
     <ClInclude Include="program\library\SystemLib\dxlib_stgGame.h" />
     <ClInclude Include="program\library\SystemLib\framework.h" />

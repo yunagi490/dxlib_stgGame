@@ -12,9 +12,6 @@ private:
 	// キー取得用配列
 	char key[256];
 
-	// プレイヤーの速さ
-	char PLAYER_SPEED = 4;
-
 	// 移動係数
 	float move;
 
