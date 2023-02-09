@@ -1,4 +1,4 @@
-#include "program/library/SystemLib/pch.h"
+#include "../library/SystemLib/pch.h"
 #include "control.h"
 
 CONTROL::CONTROL()

@@ -30,14 +30,14 @@
     <ClCompile Include="program\system\Sys_main.cpp">
       <Filter>program\system</Filter>
     </ClCompile>
-    <ClCompile Include="control.cpp">
-      <Filter>program\library</Filter>
-    </ClCompile>
     <ClCompile Include="program\library\player.cpp">
       <Filter>program\library</Filter>
     </ClCompile>
     <ClCompile Include="program\game\Player\Move.cpp">
       <Filter>program\game\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="program\library\control.cpp">
+      <Filter>program\library</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -56,9 +56,6 @@
     <ClInclude Include="program\library\SystemLib\framework.h">
       <Filter>program\library\SystemLib</Filter>
     </ClInclude>
-    <ClInclude Include="control.h">
-      <Filter>program\library</Filter>
-    </ClInclude>
     <ClInclude Include="program\system\Sys_main.h">
       <Filter>program\system</Filter>
     </ClInclude>
@@ -67,6 +64,9 @@
     </ClInclude>
     <ClInclude Include="program\game\Player\Move.h">
       <Filter>program\game\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="program\library\control.h">
+      <Filter>program\library</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
