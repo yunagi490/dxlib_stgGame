@@ -93,5 +93,14 @@ void PLAYER::Move()
 	}
 	// 下キーが押されていて、かつycountが0以下なら0にしてから1足す。
 	// それ以外は1足す。
+	if (key[KEY_INPUT_DOWN] == 1)
+	{
+		if (ycount < 0)
+			ycount = 0;
+		++ycount;
+	}
+
+	// カウント数から添字を求める
+	ix = abs(xcount) % 30 / 10;
 
 }

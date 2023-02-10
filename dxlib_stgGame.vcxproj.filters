@@ -68,6 +68,9 @@
     <ClInclude Include="program\library\control.h">
       <Filter>program\library</Filter>
     </ClInclude>
+    <ClInclude Include="program\library\SystemLib\define.h">
+      <Filter>program\library\SystemLib</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Image Include="program\library\SystemLib\small.ico">
