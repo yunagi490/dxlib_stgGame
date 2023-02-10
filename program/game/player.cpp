@@ -7,9 +7,7 @@
 PLAYER::PLAYER()
 {
 	// ‰æ‘œ“Ç‚İ‚İ
-	if (-1 == LoadDivGraph("", 12, 3, 4, 29, 40, gh)) {
-		/// MSG("ƒGƒ‰[”­¶");
-	}
+	LoadGraph("../graphics/",TRUE);
 
 	width = 29;
 	height = 40;
@@ -26,7 +24,13 @@ PLAYER::PLAYER()
 	x = 180;
 	y = 400;
 
+	// ¶‚«‚Ä‚é‚©‚Ç‚¤‚©
 	life = true;
+
+	// ’e‰Šú‰»
+	memset(shot, 0, sizeof(shot));
+
+
 }
 
 void PLAYER::Move()

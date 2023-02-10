@@ -1,3 +1,5 @@
+#include "../library/SystemLib/define.h"
+
 class PLAYER {
 private:
 	// x座標, y座標
@@ -24,9 +26,16 @@ private:
 	// 生きてるかどうかのフラグ
 	bool life;
 
+	// 弾
+	Shot shot[PSHOT_NUM];
+
+	// カウント
+	int count;
+
 private:
 	void Move();
 	void Draw();
+	void Shot();
 
 public:
 	PLAYER();

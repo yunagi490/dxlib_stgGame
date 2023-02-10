@@ -16,9 +16,6 @@
     <Filter Include="program\library\SystemLib">
       <UniqueIdentifier>{bb52742e-2da5-4058-89fb-ddf70b35e79f}</UniqueIdentifier>
     </Filter>
-    <Filter Include="program\game\Player">
-      <UniqueIdentifier>{36dce952-3b9c-4fab-8541-d6c6d90e978e}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="program\library\SystemLib\pch.cpp">
@@ -30,14 +27,14 @@
     <ClCompile Include="program\system\Sys_main.cpp">
       <Filter>program\system</Filter>
     </ClCompile>
-    <ClCompile Include="program\library\player.cpp">
-      <Filter>program\library</Filter>
-    </ClCompile>
-    <ClCompile Include="program\game\Player\Move.cpp">
-      <Filter>program\game\Player</Filter>
-    </ClCompile>
     <ClCompile Include="program\library\control.cpp">
       <Filter>program\library</Filter>
+    </ClCompile>
+    <ClCompile Include="program\game\player.cpp">
+      <Filter>program\game</Filter>
+    </ClCompile>
+    <ClCompile Include="program\game\back.cpp">
+      <Filter>program\game</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -59,17 +56,17 @@
     <ClInclude Include="program\system\Sys_main.h">
       <Filter>program\system</Filter>
     </ClInclude>
-    <ClInclude Include="program\library\player.h">
-      <Filter>program\library</Filter>
-    </ClInclude>
-    <ClInclude Include="program\game\Player\Move.h">
-      <Filter>program\game\Player</Filter>
-    </ClInclude>
     <ClInclude Include="program\library\control.h">
       <Filter>program\library</Filter>
     </ClInclude>
     <ClInclude Include="program\library\SystemLib\define.h">
       <Filter>program\library\SystemLib</Filter>
+    </ClInclude>
+    <ClInclude Include="program\game\player.h">
+      <Filter>program\game</Filter>
+    </ClInclude>
+    <ClInclude Include="program\game\back.h">
+      <Filter>program\game</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

@@ -19,17 +19,17 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="program\game\Player\Move.cpp" />
+    <ClCompile Include="program\game\back.cpp" />
+    <ClCompile Include="program\game\player.cpp" />
     <ClCompile Include="program\library\control.cpp" />
-    <ClCompile Include="program\library\player.cpp" />
     <ClCompile Include="program\library\SystemLib\dxlib_stgGame.cpp" />
     <ClCompile Include="program\library\SystemLib\pch.cpp" />
     <ClCompile Include="program\system\Sys_main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="program\game\Player\Move.h" />
+    <ClInclude Include="program\game\back.h" />
+    <ClInclude Include="program\game\player.h" />
     <ClInclude Include="program\library\control.h" />
-    <ClInclude Include="program\library\player.h" />
     <ClInclude Include="program\library\SystemLib\define.h" />
     <ClInclude Include="program\library\SystemLib\dxlib_stgGame.h" />
     <ClInclude Include="program\library\SystemLib\framework.h" />
