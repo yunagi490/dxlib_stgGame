@@ -8,7 +8,8 @@ private:
 
 private:
 	void Draw();
+	void Move();
 public:
 	void All();
 	BACK();
-};
+}; 
