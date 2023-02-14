@@ -2,6 +2,8 @@
 #define MARGIN 10
 #define SCROLL_SPEED 2
 #define PSHOT_NUM 20
+#define PSHOT_SPEED 14
+
 struct Shot
 {
 	// ’e‚ª”­ŽË’†‚©‚Ç‚¤‚©

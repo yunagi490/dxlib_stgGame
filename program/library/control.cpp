@@ -2,6 +2,7 @@
 #include "control.h"
 #include "DxLib.h"
 #include "../library/SystemLib/define.h"
+
 CONTROL::CONTROL()
 {
 	// プレイヤークラスの生成
@@ -9,6 +10,9 @@ CONTROL::CONTROL()
 	
 	// 背景クラスの生成
 	back = new BACK;
+
+	// 敵クラスの生成
+	enemy = new ENEMY;
 }
 CONTROL::~CONTROL()
 {
@@ -25,7 +29,11 @@ void CONTROL::All()
 
 	// プレイヤークラスのAll関数実行
 	player->All();
+
+	// 敵クラスのAll関数実行
+	enemy -> All();
 }
+
 
 
 

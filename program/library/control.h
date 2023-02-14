@@ -1,5 +1,6 @@
 #include "../game/player.h"
 #include "../game/back.h"
+#include "../game/enemy.h"
 
 class CONTROL
 {
@@ -9,6 +10,10 @@ private:
 
 	// 背景クラス
 	BACK *back;
+
+	// 敵クラス
+	ENEMY *enemy;
+
 public:
 	CONTROL();
 	~CONTROL();

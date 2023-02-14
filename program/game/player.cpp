@@ -7,10 +7,10 @@
 PLAYER::PLAYER()
 {
 	// ‰æ‘œ“Ç‚İ‚İ
-	LoadGraph("../graphics/",TRUE);
+	LoadGraph("../graphics/player1.png",TRUE);
 
-	width = 29;
-	height = 40;
+	width = 64;
+	height = 64;
 
 	// ˆÚ“®ŒW”
 	move = 1.0f;
@@ -62,6 +62,21 @@ void PLAYER::Shot()
 				shot[i], x == x;
 				shot[i].y = y;
 				break;
+			}
+		}
+	}
+
+	// ’e‚ğˆÚ“®‚³‚¹‚éˆ—
+	for (int i = 0; i, PSHOT_NUM; ++i)
+	{
+		// ”­Ë‚µ‚Ä‚¢‚é’e‚¾‚¯
+		if (shot[i].flag)
+		{
+			shot[i].y = PSHOT_SPEED;
+			// ‰æ–Ê‚ÌŠO‚É‚Í‚İo‚µ‚½‚çƒtƒ‰ƒO‚ğ–ß‚·
+			if (shot[i].y < -10)
+			{
+				shot[i].flag = false;
 			}
 		}
 	}
@@ -143,3 +158,31 @@ void PLAYER::Move()
 	ix = abs(xcount) % 30 / 10;
 
 }
+
+void PLAYER::Draw()
+{
+	// ’e•`‰æ
+	for (int i = 0; i < PSHOT_NUM; ++i)
+	{
+		if (shot[i].flag){
+			DrawGraph(shot[i].x-shot[i].width/2,shot[i].y-shot[i].height/2,shot[i].gh,TRUE);
+		}
+	}
+
+	// ¶‚«‚Ä‚¢‚ê‚Î•`‰æ
+	if (life)
+	{
+		// •`‰æ
+		DrawGraph(x - width / 2, y - height / 2, gh[result], TRUE);
+	}
+}
+
+void PLAYER::All()
+{
+	Move();
+	Shot();
+	Draw();
+
+	++count;
+}
+

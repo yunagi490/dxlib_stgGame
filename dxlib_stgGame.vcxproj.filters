@@ -36,6 +36,9 @@
     <ClCompile Include="program\game\back.cpp">
       <Filter>program\game</Filter>
     </ClCompile>
+    <ClCompile Include="program\game\enemy.cpp">
+      <Filter>program\game</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="program\library\SystemLib\pch.h">
@@ -66,6 +69,9 @@
       <Filter>program\game</Filter>
     </ClInclude>
     <ClInclude Include="program\game\back.h">
+      <Filter>program\game</Filter>
+    </ClInclude>
+    <ClInclude Include="program\game\enemy.h">
       <Filter>program\game</Filter>
     </ClInclude>
   </ItemGroup>
