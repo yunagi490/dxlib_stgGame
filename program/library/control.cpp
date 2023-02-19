@@ -2,6 +2,7 @@
 #include "control.h"
 #include "DxLib.h"
 #include "../library/SystemLib/define.h"
+#include "../game/enemy.h"
 
 CONTROL::CONTROL()
 {
@@ -30,8 +31,14 @@ void CONTROL::All()
 	// プレイヤークラスのAll関数実行
 	player->All();
 
-	// 敵クラスのAll関数実行
-	enemy -> All();
+	if (enemy != NULL) {
+		if (enemy->All()) {
+			delete enemy;
+			enemy = NULL;
+		}
+	}
+
+	
 }
 
 

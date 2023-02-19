@@ -21,6 +21,7 @@
   <ItemGroup>
     <ClCompile Include="program\game\back.cpp" />
     <ClCompile Include="program\game\enemy.cpp" />
+    <ClCompile Include="program\game\game_properties\game_main.cpp" />
     <ClCompile Include="program\game\player.cpp" />
     <ClCompile Include="program\library\control.cpp" />
     <ClCompile Include="program\library\SystemLib\dxlib_stgGame.cpp" />

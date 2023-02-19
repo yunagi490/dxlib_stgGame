@@ -37,5 +37,25 @@ void ENEMY::Move()
 			endflag = true;
 		}
 	}
+}
 
+void ENEMY::Draw()
+{
+	int temp;
+	if (!endflag) {
+
+		temp = count % 40 / 10;
+		if (temp == 3)
+			temp = 1;
+
+		DrawGraph(x, y, gh[temp], TRUE);
+	}
+}
+
+bool ENEMY::All()
+{
+	Move();
+	Draw();
+	++count;
+	return endflag;
 }

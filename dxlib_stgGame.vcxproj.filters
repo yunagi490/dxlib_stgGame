@@ -16,6 +16,9 @@
     <Filter Include="program\library\SystemLib">
       <UniqueIdentifier>{bb52742e-2da5-4058-89fb-ddf70b35e79f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="program\game\game_properties">
+      <UniqueIdentifier>{b5b8664f-d7b9-41ba-80cb-80d4c1cbc632}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="program\library\SystemLib\pch.cpp">
@@ -38,6 +41,9 @@
     </ClCompile>
     <ClCompile Include="program\game\enemy.cpp">
       <Filter>program\game</Filter>
+    </ClCompile>
+    <ClCompile Include="program\game\game_properties\game_main.cpp">
+      <Filter>program\game\game_properties</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
