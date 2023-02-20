@@ -1,0 +1,17 @@
+﻿  back.cpp
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\back.cpp(39,1): fatal  error C1010: プリコンパイル ヘッダーを検索中に不明な EOF が見つかりました。'#include "pch.h"' をソースに追加しましたか?
+  enemy.cpp
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\enemy.cpp(42,1): fatal  error C1010: プリコンパイル ヘッダーを検索中に不明な EOF が見つかりました。'#include "pch.h"' をソースに追加しましたか?
+  game_main.cpp
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\game_properties\game_main.cpp(1,1): fatal  error C1010: プリコンパイル ヘッダーを検索中に不明な EOF が見つかりました。'#include "pch.h"' をソースに追加しましたか?
+  player.cpp
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\player.cpp(189,1): fatal  error C1010: プリコンパイル ヘッダーを検索中に不明な EOF が見つかりました。'#include "pch.h"' をソースに追加しましたか?
+  control.cpp
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\library\control.cpp(40,1): fatal  error C1010: プリコンパイル ヘッダーを検索中に不明な EOF が見つかりました。'#include "pch.h"' をソースに追加しましたか?
+  dxlib_stgGame.cpp
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\library\SystemLib\dxlib_stgGame.cpp(4,10): fatal  error C1083: プリコンパイル済みヘッダー ファイルを開けません。'x64\Debug\dxlib_stgGame.pch':No such file or directory
+  pch.cpp
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\library\SystemLib\pch.cpp(3,10): fatal  error C1083: プリコンパイル済みヘッダー ファイルを開けません。'x64\Debug\dxlib_stgGame.pch':No such file or directory
+  Sys_main.cpp
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\system\Sys_main.cpp(34,1): fatal  error C1010: プリコンパイル ヘッダーを検索中に不明な EOF が見つかりました。'#include "pch.h"' をソースに追加しましたか?
+  コードを生成中...
