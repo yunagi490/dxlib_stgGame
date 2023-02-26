@@ -1,6 +1,7 @@
 #include "player.h"
 #include "../library/SystemLib/define.h"
 #include "../library/SystemLib/pch.h"
+#include "../library/control.h"
 
 #include "DxLib.h"
 
@@ -52,7 +53,7 @@ PLAYER::PLAYER()
 void PLAYER::Shot()
 {
 	// キーが押されていてかつ、6ループに一回発射
-	if (key[KEY_INPUT_Z] == 1 && count % 6 == 0)
+	if (key[KEY_INPUT_Z] == 1 && count %6 == 0)
 	{
 		for (int i = 0; i < PSHOT_NUM; ++i)
 		{
@@ -67,12 +68,12 @@ void PLAYER::Shot()
 	}
 
 	// 弾を移動させる処理
-	for (int i = 0; i, PSHOT_NUM; ++i)
+	for (int i = 0; i < PSHOT_NUM; ++i)
 	{
 		// 発射している弾だけ
 		if (shot[i].flag)
 		{
-			shot[i].y = PSHOT_SPEED;
+			shot[i].y -= PSHOT_SPEED;
 			// 画面の外にはみ出したらフラグを戻す
 			if (shot[i].y < -10)
 			{
@@ -186,3 +187,8 @@ void PLAYER::All()
 	++count;
 }
 
+void PLAYER::GetPosition(double* x, double* y)
+{
+	*x = this->x;
+	*y = this->y;
+}

@@ -1,7 +1,6 @@
 #include "enemy.h"
 #include "../library/SystemLib/define.h"
 #include "../library/SystemLib/pch.h"
-
 #include "DxLib.h"
 
 ENEMY::ENEMY()

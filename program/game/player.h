@@ -14,6 +14,7 @@ private:
 	// キー取得用配列
 	char key[256];
 
+
 	// 移動係数
 	float move;
 
@@ -27,7 +28,7 @@ private:
 	bool life;
 
 	// 弾
-	Shot shot[PSHOT_NUM];
+	SHOT shot[PSHOT_NUM];
 
 	// カウント
 	int count;
@@ -39,5 +40,7 @@ private:
 
 public:
 	PLAYER();
+	void GetPosition(double* x, double* y);
 	void All();
+
 };

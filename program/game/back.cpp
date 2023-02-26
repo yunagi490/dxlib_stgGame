@@ -1,6 +1,6 @@
 #include "DxLib.h"
 #include "../library/SystemLib/define.h"
-
+#include "../library/SystemLib/pch.h"
 #include "back.h"
 
 

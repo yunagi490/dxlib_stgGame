@@ -45,6 +45,9 @@
     <ClCompile Include="program\game\game_properties\game_main.cpp">
       <Filter>program\game\game_properties</Filter>
     </ClCompile>
+    <ClCompile Include="program\library\main.cpp">
+      <Filter>program\library</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="program\library\SystemLib\pch.h">

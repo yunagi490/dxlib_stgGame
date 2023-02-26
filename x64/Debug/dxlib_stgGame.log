@@ -1,17 +1,221 @@
 ﻿  back.cpp
-C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\back.cpp(39,1): fatal  error C1010: プリコンパイル ヘッダーを検索中に不明な EOF が見つかりました。'#include "pch.h"' をソースに追加しましたか?
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\library\SystemLib\define.h(41,1): warning C4005: 'ENEMY_SNUM': マクロが再定義されました。
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\library\SystemLib\define.h(5,1): message : 'ENEMY_SNUM' の以前の定義を確認してください
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\back.cpp(17,15): warning C4244: '引数': 'double' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\back.cpp(17,12): warning C4244: '引数': 'double' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\back.cpp(20,17): warning C4244: '引数': 'double' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\back.cpp(20,12): warning C4244: '引数': 'double' から 'int' への変換です。データが失われる可能性があります。
   enemy.cpp
-C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\enemy.cpp(42,1): fatal  error C1010: プリコンパイル ヘッダーを検索中に不明な EOF が見つかりました。'#include "pch.h"' をソースに追加しましたか?
-  game_main.cpp
-C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\game_properties\game_main.cpp(1,1): fatal  error C1010: プリコンパイル ヘッダーを検索中に不明な EOF が見つかりました。'#include "pch.h"' をソースに追加しましたか?
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\library\SystemLib\define.h(41,1): warning C4005: 'ENEMY_SNUM': マクロが再定義されました。
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\library\SystemLib\define.h(5,1): message : 'ENEMY_SNUM' の以前の定義を確認してください
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\library\SystemLib\define.h(5,1): warning C4005: 'ENEMY_SNUM': マクロが再定義されました。
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\library\SystemLib\define.h(41,1): message : 'ENEMY_SNUM' の以前の定義を確認してください
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\library\SystemLib\define.h(11,1): error C2011: 'SHOT': 'struct' 型の再定義
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\library\SystemLib\define.h(10,8): message : 'SHOT' の宣言を確認してください
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\library\SystemLib\define.h(29,15): error C2011: 'E_SHOT': 'struct' 型の再定義
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\library\SystemLib\define.h(29,8): message : 'E_SHOT' の宣言を確認してください
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\library\SystemLib\define.h(41,1): warning C4005: 'ENEMY_SNUM': マクロが再定義されました。
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\library\SystemLib\define.h(5,1): message : 'ENEMY_SNUM' の以前の定義を確認してください
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\enemy.cpp(6,8): error C2511: 'ENEMY::ENEMY(void)': オーバーロードされたメンバー関数が 'ENEMY' にありません。
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\enemy.h(6,7): message : 'ENEMY' の宣言を確認してください
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\enemy.cpp(10,2): error C2597: 静的でないメンバー 'ENEMY::width' への参照が正しくありません。
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\enemy.h(14,6): message : 'ENEMY::width' の宣言を確認してください
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\enemy.cpp(11,2): error C2597: 静的でないメンバー 'ENEMY::height' への参照が正しくありません。
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\enemy.h(14,13): message : 'ENEMY::height' の宣言を確認してください
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\enemy.cpp(13,2): error C2597: 静的でないメンバー 'ENEMY::x' への参照が正しくありません。
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\enemy.h(10,9): message : 'ENEMY::x' の宣言を確認してください
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\enemy.cpp(14,2): error C2597: 静的でないメンバー 'ENEMY::y' への参照が正しくありません。
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\enemy.h(10,12): message : 'ENEMY::y' の宣言を確認してください
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\enemy.cpp(16,2): error C2597: 静的でないメンバー 'ENEMY::in_time' への参照が正しくありません。
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\enemy.h(17,6): message : 'ENEMY::in_time' の宣言を確認してください
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\enemy.cpp(17,2): error C2597: 静的でないメンバー 'ENEMY::stop_time' への参照が正しくありません。
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\enemy.h(17,15): message : 'ENEMY::stop_time' の宣言を確認してください
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\enemy.cpp(18,2): error C2597: 静的でないメンバー 'ENEMY::out_time' への参照が正しくありません。
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\enemy.h(17,26): message : 'ENEMY::out_time' の宣言を確認してください
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\enemy.cpp(20,2): error C2597: 静的でないメンバー 'ENEMY::count' への参照が正しくありません。
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\enemy.h(34,6): message : 'ENEMY::count' の宣言を確認してください
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\enemy.cpp(21,2): error C2597: 静的でないメンバー 'ENEMY::endflag' への参照が正しくありません。
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\enemy.h(44,7): message : 'ENEMY::endflag' の宣言を確認してください
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\enemy.cpp(29,5): warning C4552: '+': 式の結果が使用されていません
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\enemy.cpp(50,16): warning C4244: '引数': 'double' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\enemy.cpp(50,13): warning C4244: '引数': 'double' から 'int' への変換です。データが失われる可能性があります。
   player.cpp
-C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\player.cpp(189,1): fatal  error C1010: プリコンパイル ヘッダーを検索中に不明な EOF が見つかりました。'#include "pch.h"' をソースに追加しましたか?
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\library\SystemLib\define.h(41,1): warning C4005: 'ENEMY_SNUM': マクロが再定義されました。
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\library\SystemLib\define.h(5,1): message : 'ENEMY_SNUM' の以前の定義を確認してください
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\library\SystemLib\define.h(5,1): warning C4005: 'ENEMY_SNUM': マクロが再定義されました。
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\library\SystemLib\define.h(41,1): message : 'ENEMY_SNUM' の以前の定義を確認してください
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\library\SystemLib\define.h(11,1): error C2011: 'SHOT': 'struct' 型の再定義
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\library\SystemLib\define.h(10,8): message : 'SHOT' の宣言を確認してください
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\library\SystemLib\define.h(29,15): error C2011: 'E_SHOT': 'struct' 型の再定義
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\library\SystemLib\define.h(29,8): message : 'E_SHOT' の宣言を確認してください
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\library\SystemLib\define.h(41,1): warning C4005: 'ENEMY_SNUM': マクロが再定義されました。
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\library\SystemLib\define.h(5,1): message : 'ENEMY_SNUM' の以前の定義を確認してください
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\library\SystemLib\define.h(5,1): warning C4005: 'ENEMY_SNUM': マクロが再定義されました。
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\library\SystemLib\define.h(41,1): message : 'ENEMY_SNUM' の以前の定義を確認してください
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\library\SystemLib\define.h(41,1): warning C4005: 'ENEMY_SNUM': マクロが再定義されました。
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\library\SystemLib\define.h(5,1): message : 'ENEMY_SNUM' の以前の定義を確認してください
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\player.h(3,14): error C2011: 'PLAYER': 'class' 型の再定義
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\player.h(3,7): message : 'PLAYER' の宣言を確認してください
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\library\SystemLib\define.h(5,1): warning C4005: 'ENEMY_SNUM': マクロが再定義されました。
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\library\SystemLib\define.h(41,1): message : 'ENEMY_SNUM' の以前の定義を確認してください
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\library\SystemLib\define.h(41,1): warning C4005: 'ENEMY_SNUM': マクロが再定義されました。
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\library\SystemLib\define.h(5,1): message : 'ENEMY_SNUM' の以前の定義を確認してください
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\enemy.h(47,9): error C2079: 'ENEMY::shot' が 未定義の struct 'E_SHOT' で使用しています。
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\player.cpp(8,9): error C2027: 認識できない型 'PLAYER' が使われています。
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\player.h(3,7): message : 'PLAYER' の宣言を確認してください
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\player.cpp(9,1): error C4430: 型指定子がありません - int と仮定しました。メモ: C++ は int を既定値としてサポートしていません
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\player.cpp(13,2): error C2065: 'width': 定義されていない識別子です。
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\player.cpp(14,2): error C2065: 'height': 定義されていない識別子です。
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\player.cpp(17,2): error C2065: 'move': 定義されていない識別子です。
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\player.cpp(20,2): error C2065: 'xcount': 定義されていない識別子です。
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\player.cpp(20,14): error C2065: 'ycount': 定義されていない識別子です。
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\player.cpp(22,2): error C2065: 'ix': 定義されていない識別子です。
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\player.cpp(22,10): error C2065: 'iy': 定義されていない識別子です。
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\player.cpp(22,18): error C2065: 'result': 定義されていない識別子です。
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\player.cpp(25,2): error C2065: 'x': 定義されていない識別子です。
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\player.cpp(26,2): error C2065: 'y': 定義されていない識別子です。
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\player.cpp(29,2): error C2065: 'life': 定義されていない識別子です。
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\player.cpp(32,9): error C2065: 'shot': 定義されていない識別子です。
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\player.cpp(32,25): error C2065: 'shot': 定義されていない識別子です。
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\player.cpp(44,3): error C2065: 'shot': 定義されていない識別子です。
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\player.cpp(45,3): error C2065: 'shot': 定義されていない識別子です。
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\player.cpp(46,3): error C2065: 'shot': 定義されていない識別子です。
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\player.cpp(47,3): error C2065: 'shot': 定義されていない識別子です。
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\player.cpp(50,2): error C2065: 'count': 定義されていない識別子です。
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\player.cpp(51,1): warning C4508: '{ctor}': 関数に戻り値の型が指定されていません。戻り値を void 型と見なします。
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\player.cpp(53,14): error C2027: 認識できない型 'PLAYER' が使われています。
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\player.h(3,7): message : 'PLAYER' の宣言を確認してください
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\player.cpp(56,6): error C2065: 'key': 定義されていない識別子です。
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\player.cpp(56,31): error C2065: 'count': 定義されていない識別子です。
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\player.cpp(60,8): error C2065: 'shot': 定義されていない識別子です。
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\player.cpp(62,5): error C2065: 'shot': 定義されていない識別子です。
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\player.cpp(63,5): error C2065: 'shot': 定義されていない識別子です。
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\player.cpp(63,14): error C2065: 'x': 定義されていない識別子です。
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\player.cpp(63,19): error C2065: 'x': 定義されていない識別子です。
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\player.cpp(64,5): error C2065: 'shot': 定義されていない識別子です。
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\player.cpp(64,17): error C2065: 'y': 定義されていない識別子です。
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\player.cpp(74,7): error C2065: 'shot': 定義されていない識別子です。
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\player.cpp(76,4): error C2065: 'shot': 定義されていない識別子です。
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\player.cpp(78,8): error C2065: 'shot': 定義されていない識別子です。
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\player.cpp(80,5): error C2065: 'shot': 定義されていない識別子です。
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\player.cpp(87,14): error C2027: 認識できない型 'PLAYER' が使われています。
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\player.h(3,7): message : 'PLAYER' の宣言を確認してください
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\player.cpp(89,6): error C2065: 'key': 定義されていない識別子です。
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\player.cpp(89,34): error C2065: 'key': 定義されていない識別子です。
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\player.cpp(91,7): error C2065: 'key': 定義されていない識別子です。
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\player.cpp(91,33): error C2065: 'key': 定義されていない識別子です。
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\player.cpp(94,4): error C2065: 'move': 定義されていない識別子です。
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\player.cpp(98,4): error C2065: 'move': 定義されていない識別子です。
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\player.cpp(101,11): error C2065: 'key': 定義されていない識別子です。
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\player.cpp(101,37): error C2065: 'key': 定義されていない識別子です。
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\player.cpp(102,3): error C2065: 'move': 定義されていない識別子です。
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\player.cpp(105,6): error C2065: 'key': 定義されていない識別子です。
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\player.cpp(107,3): error C2065: 'x': 定義されていない識別子です。
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\player.cpp(107,28): error C2065: 'move': 定義されていない識別子です。
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\player.cpp(109,6): error C2065: 'key': 定義されていない識別子です。
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\player.cpp(111,3): error C2065: 'x': 定義されていない識別子です。
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\player.cpp(111,28): error C2065: 'move': 定義されていない識別子です。
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\player.cpp(114,6): error C2065: 'key': 定義されていない識別子です。
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\player.cpp(116,3): error C2065: 'y': 定義されていない識別子です。
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\player.cpp(116,28): error C2065: 'move': 定義されていない識別子です。
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\player.cpp(118,6): error C2065: 'key': 定義されていない識別子です。
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\player.cpp(120,3): error C2065: 'y': 定義されていない識別子です。
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\player.cpp(120,28): error C2065: 'move': 定義されていない識別子です。
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\player.cpp(127,6): error C2065: 'key': 定義されていない識別子です。
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\player.cpp(129,7): error C2065: 'xcount': 定義されていない識別子です。
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\player.cpp(130,4): error C2065: 'xcount': 定義されていない識別子です。
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\player.cpp(131,5): error C2065: 'xcount': 定義されていない識別子です。
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\player.cpp(135,6): error C2065: 'key': 定義されていない識別子です。
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\player.cpp(137,7): error C2065: 'xcount': 定義されていない識別子です。
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\player.cpp(138,4): error C2065: 'xcount': 定義されていない識別子です。
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\player.cpp(139,5): error C2065: 'xcount': 定義されていない識別子です。
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\player.cpp(143,6): error C2065: 'key': 定義されていない識別子です。
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\player.cpp(145,7): error C2065: 'ycount': 定義されていない識別子です。
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\player.cpp(146,4): error C2065: 'ycount': 定義されていない識別子です。
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\player.cpp(147,5): error C2065: 'ycount': 定義されていない識別子です。
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\player.cpp(151,6): error C2065: 'key': 定義されていない識別子です。
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\player.cpp(153,7): error C2065: 'ycount': 定義されていない識別子です。
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\player.cpp(154,4): error C2065: 'ycount': 定義されていない識別子です。
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\player.cpp(155,5): error C2065: 'ycount': 定義されていない識別子です。
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\player.cpp(159,2): error C2065: 'ix': 定義されていない識別子です。
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\player.cpp(159,11): error C2065: 'xcount': 定義されていない識別子です。
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\player.cpp(163,14): error C2027: 認識できない型 'PLAYER' が使われています。
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\player.h(3,7): message : 'PLAYER' の宣言を確認してください
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\player.cpp(168,7): error C2065: 'shot': 定義されていない識別子です。
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\player.cpp(169,14): error C2065: 'shot': 定義されていない識別子です。
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\player.cpp(169,24): error C2065: 'shot': 定義されていない識別子です。
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\player.cpp(169,40): error C2065: 'shot': 定義されていない識別子です。
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\player.cpp(169,50): error C2065: 'shot': 定義されていない識別子です。
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\player.cpp(169,67): error C2065: 'shot': 定義されていない識別子です。
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\player.cpp(169,4): error C2660: 'DxLib::DrawGraph': 関数に 2 個の引数を指定できません。
+c:\DxLib_VC\プロジェクトに追加すべきファイル_VC用\DxLib.h(2895,14): message : 'DxLib::DrawGraph' の宣言を確認してください
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\player.cpp(169,4): message : 引数リスト '()' を一致させようとしているとき
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\player.cpp(174,6): error C2065: 'life': 定義されていない識別子です。
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\player.cpp(177,13): error C2065: 'x': 定義されていない識別子です。
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\player.cpp(177,17): error C2065: 'width': 定義されていない識別子です。
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\player.cpp(177,28): error C2065: 'y': 定義されていない識別子です。
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\player.cpp(177,32): error C2065: 'height': 定義されていない識別子です。
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\player.cpp(177,44): error C2065: 'gh': 定義されていない識別子です。
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\player.cpp(177,47): error C2065: 'result': 定義されていない識別子です。
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\player.cpp(177,3): error C2660: 'DxLib::DrawGraph': 関数に 2 個の引数を指定できません。
+c:\DxLib_VC\プロジェクトに追加すべきファイル_VC用\DxLib.h(2895,14): message : 'DxLib::DrawGraph' の宣言を確認してください
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\player.cpp(177,3): message : 引数リスト '()' を一致させようとしているとき
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\player.cpp(181,14): error C2027: 認識できない型 'PLAYER' が使われています。
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\player.h(3,7): message : 'PLAYER' の宣言を確認してください
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\player.cpp(187,4): error C2065: 'count': 定義されていない識別子です。
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\player.cpp(190,14): error C2027: 認識できない型 'PLAYER' が使われています。
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\player.h(3,7): message : 'PLAYER' の宣言を確認してください
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\player.cpp(192,7): error C2355: 'this': 静的でないメンバー関数の内部または静的でないデータ メンバー初期化子においてのみ参照できます
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\player.cpp(193,7): error C2355: 'this': 静的でないメンバー関数の内部または静的でないデータ メンバー初期化子においてのみ参照できます
   control.cpp
-C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\library\control.cpp(40,1): fatal  error C1010: プリコンパイル ヘッダーを検索中に不明な EOF が見つかりました。'#include "pch.h"' をソースに追加しましたか?
-  dxlib_stgGame.cpp
-C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\library\SystemLib\dxlib_stgGame.cpp(4,10): fatal  error C1083: プリコンパイル済みヘッダー ファイルを開けません。'x64\Debug\dxlib_stgGame.pch':No such file or directory
-  pch.cpp
-C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\library\SystemLib\pch.cpp(3,10): fatal  error C1083: プリコンパイル済みヘッダー ファイルを開けません。'x64\Debug\dxlib_stgGame.pch':No such file or directory
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\library\SystemLib\define.h(41,1): warning C4005: 'ENEMY_SNUM': マクロが再定義されました。
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\library\SystemLib\define.h(5,1): message : 'ENEMY_SNUM' の以前の定義を確認してください
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\library\SystemLib\define.h(5,1): warning C4005: 'ENEMY_SNUM': マクロが再定義されました。
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\library\SystemLib\define.h(41,1): message : 'ENEMY_SNUM' の以前の定義を確認してください
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\library\SystemLib\define.h(11,1): error C2011: 'SHOT': 'struct' 型の再定義
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\library\SystemLib\define.h(10,8): message : 'SHOT' の宣言を確認してください
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\library\SystemLib\define.h(29,15): error C2011: 'E_SHOT': 'struct' 型の再定義
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\library\SystemLib\define.h(29,8): message : 'E_SHOT' の宣言を確認してください
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\library\SystemLib\define.h(41,1): warning C4005: 'ENEMY_SNUM': マクロが再定義されました。
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\library\SystemLib\define.h(5,1): message : 'ENEMY_SNUM' の以前の定義を確認してください
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\enemy.h(47,9): error C2079: 'ENEMY::shot' が 未定義の struct 'E_SHOT' で使用しています。
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\library\SystemLib\define.h(5,1): warning C4005: 'ENEMY_SNUM': マクロが再定義されました。
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\library\SystemLib\define.h(41,1): message : 'ENEMY_SNUM' の以前の定義を確認してください
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\library\SystemLib\define.h(41,1): warning C4005: 'ENEMY_SNUM': マクロが再定義されました。
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\library\SystemLib\define.h(5,1): message : 'ENEMY_SNUM' の以前の定義を確認してください
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\library\SystemLib\define.h(5,1): warning C4005: 'ENEMY_SNUM': マクロが再定義されました。
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\library\SystemLib\define.h(41,1): message : 'ENEMY_SNUM' の以前の定義を確認してください
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\library\SystemLib\define.h(41,1): warning C4005: 'ENEMY_SNUM': マクロが再定義されました。
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\library\SystemLib\define.h(5,1): message : 'ENEMY_SNUM' の以前の定義を確認してください
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\player.h(3,14): error C2011: 'PLAYER': 'class' 型の再定義
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\player.h(3,7): message : 'PLAYER' の宣言を確認してください
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\library\SystemLib\define.h(5,1): warning C4005: 'ENEMY_SNUM': マクロが再定義されました。
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\library\SystemLib\define.h(41,1): message : 'ENEMY_SNUM' の以前の定義を確認してください
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\library\SystemLib\define.h(41,1): warning C4005: 'ENEMY_SNUM': マクロが再定義されました。
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\library\SystemLib\define.h(5,1): message : 'ENEMY_SNUM' の以前の定義を確認してください
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\library\control.cpp(12,21): error C2027: 認識できない型 'PLAYER' が使われています。
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\player.h(3,7): message : 'PLAYER' の宣言を確認してください
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\library\control.cpp(18,19): error C2512: 'ENEMY': クラス、構造体、共用体に既定のコンストラクターがありません。
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\library\control.cpp(23,2): warning C4150: 'PLAYER' 型を削除するため delete 演算子が呼び出されましたが、定義がありません。
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\player.h(3,7): message : 'PLAYER' の宣言を確認してください
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\library\control.cpp(34,8): error C2027: 認識できない型 'PLAYER' が使われています。
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\player.h(3,7): message : 'PLAYER' の宣言を確認してください
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\library\control.cpp(50,8): error C2027: 認識できない型 'PLAYER' が使われています。
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\player.h(3,7): message : 'PLAYER' の宣言を確認してください
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\library\control.cpp(60,14): error C2819: クラス 'ENEMY' にはオーバーロードされたメンバー 'operator ->' がありません。
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\enemy.h(6,7): message : 'ENEMY' の宣言を確認してください
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\library\control.cpp(60,14): message : 代わりに '.' を使用しますか?
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\library\control.cpp(60,27): error C2232: '->ENEMY::GetPosition': 左のオペランドが 'class' 型です。'.' を使用してください。
   Sys_main.cpp
-C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\system\Sys_main.cpp(34,1): fatal  error C1010: プリコンパイル ヘッダーを検索中に不明な EOF が見つかりました。'#include "pch.h"' をソースに追加しましたか?
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\library\SystemLib\define.h(41,1): warning C4005: 'ENEMY_SNUM': マクロが再定義されました。
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\library\SystemLib\define.h(5,1): message : 'ENEMY_SNUM' の以前の定義を確認してください
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\library\SystemLib\define.h(5,1): warning C4005: 'ENEMY_SNUM': マクロが再定義されました。
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\library\SystemLib\define.h(41,1): message : 'ENEMY_SNUM' の以前の定義を確認してください
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\library\SystemLib\define.h(11,1): error C2011: 'SHOT': 'struct' 型の再定義
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\library\SystemLib\define.h(10,8): message : 'SHOT' の宣言を確認してください
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\library\SystemLib\define.h(29,15): error C2011: 'E_SHOT': 'struct' 型の再定義
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\library\SystemLib\define.h(29,8): message : 'E_SHOT' の宣言を確認してください
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\library\SystemLib\define.h(41,1): warning C4005: 'ENEMY_SNUM': マクロが再定義されました。
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\library\SystemLib\define.h(5,1): message : 'ENEMY_SNUM' の以前の定義を確認してください
+C:\Users\yunay\OneDrive\総合\普段使わないもの\ドキュメント\dxlib_stgGame\program\game\enemy.h(47,9): error C2079: 'ENEMY::shot' が 未定義の struct 'E_SHOT' で使用しています。
   コードを生成中...
